@@ -1,0 +1,45 @@
+body{
+    background-color: #150707;
+}
+
+.login{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+}
+
+h1{
+    color: white;
+    font-size: 2em;
+    margin: 20px auto;
+    text-align: center;
+}
+.content form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+.content label{
+    color: black;
+    padding: 10px 0;
+}
+.content input{
+    background-color: #ddd;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.content input:focus{
+    outline: none;
+}
+.content input:last-child{
+    margin-top: 20px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
